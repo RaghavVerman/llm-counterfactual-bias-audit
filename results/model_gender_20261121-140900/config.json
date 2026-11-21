@@ -1,0 +1,25 @@
+{
+  "model": "./model",
+  "axis": "gender",
+  "families": [
+    "regard",
+    "occupation",
+    "workplace",
+    "reference"
+  ],
+  "max_skeletons": 24,
+  "samples_per_prompt": 5,
+  "max_new_tokens": 40,
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "scorers": [
+    "sentiment",
+    "lexicon",
+    "regard",
+    "toxicity"
+  ],
+  "seed": 0,
+  "n_perm": 10000,
+  "n_generations": 240,
+  "runtime_sec": 260.3
+}
