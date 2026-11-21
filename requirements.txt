@@ -1,0 +1,9 @@
+torch
+transformers>=4.45
+pandas
+numpy
+scipy
+tqdm
+vaderSentiment
+streamlit
+pytest<9
